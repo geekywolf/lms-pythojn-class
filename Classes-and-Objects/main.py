@@ -1,14 +1,10 @@
 class Student:
     # [assignment] Skeleton class. Add your code here
-    name = ""
-    age = 0
-    tracks = []
-    score = 0.0
-    def __init__(self, name, age, tracks, score):
-        Student.name = name
-        Student.age = age
-        Student.track = tracks
-        Student.score = score
+   def __init__(self, name, age, tracks, score):
+        self.name = name
+        self.age = age
+        self.track = tracks
+        self.score = score
 
     def change_name(self,newName):
         self.name = newName
